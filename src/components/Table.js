@@ -10,9 +10,9 @@ function Table(props) {
         <thead>
           <tr>
             <th className="col-2"> Employee </th>
-            <th className="col-2"><button onClick={props.sortUsers}> First Name </button></th>
-            <th className="col-2"><button onClick={props.sortUsers}> Last Name </button></th>
-            <th className="col-2"><button onClick={props.sortUsers}> Age </button></th>
+            <th className="col-2"> First Name </th>
+            <th className="col-2"> Last Name </th>
+            <th className="col-2"><button onClick={props.sortEmployeeAge}> Age </button></th>
             <th className="col-2"><button onClick={props.filter}> Gender </button></th>
             <th className="col-2"> Email </th>
             <th className="col-2"> Cell Phone </th>
